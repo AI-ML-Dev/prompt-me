@@ -94,6 +94,9 @@ const config = {
           blogSidebarCount: 10, // 'ALL',
           postsPerPage: 7,     // 'ALL',
           showReadingTime: true,
+          tagsBasePath: 'tags',
+          archiveBasePath: 'archive',
+          sortPosts: 'descending'
         },
         theme: {
           customCss: require.resolve('./src/css/custom.css'),
@@ -113,6 +116,7 @@ const config = {
       // Replace with your project's social card
       image: 'img/ddalle-chat-peacock.jpeg',
 
+
       // Light/Dark color mode switcher 
       colorMode: {
         defaultMode: 'dark',
@@ -120,12 +124,21 @@ const config = {
         respectPrefersColorScheme: false,
       },
 
+      // Have a table of contents per page at top-right
+      tableOfContents: {
+        minHeadingLevel: 2,
+        maxHeadingLevel: 4,
+      },
+      
       navbar: {
         title: 'Prompt Me!',
         logo: {
           alt: 'Prompt-Me.Dev Logo',
           src: 'img/logo.jpeg',
         },
+        hideOnScroll: true,
+        style: 'primary',
+
         items: [
           /*
           {

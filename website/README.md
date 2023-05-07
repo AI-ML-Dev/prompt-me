@@ -61,3 +61,19 @@ $ npx docusarus serve
 ```
 
 Then setup the GitHub Actions workflow to have Docusaurus build the static site content in the [gh-pages branch](https://docusaurus.io/docs/deployment#deploying-to-github-pages) of the repo. Commit this step to test the workflow runs (and creates the gh-pages branch)
+
+
+Finally, configure [GitHub Settings](https://github.com/AI-ML-Dev/prompt-me/settings/pages) for the project, to push the static files in that branch to the GitHub Pages hosted endpoint in the cloud.
+
+Note that we are using a a custom domain for this site. 
+ * Follow the [GitHub guidance](https://docs.github.com/en/pages/configuring-a-custom-domain-for-your-github-pages-site/managing-a-custom-domain-for-your-github-pages-site#configuring-an-apex-domain) and update your DNS provider with the IP addresses for GitHub pages. 
+ * Once, update the [GitHub Settings](https://github.com/AI-ML-Dev/prompt-me/settings/pages) for custom domain, and enforce HTTPS. DNS check may take a while to complete.
+ * Don't forget to [configure the www subdomain](https://docs.github.com/en/pages/configuring-a-custom-domain-for-your-github-pages-site/managing-a-custom-domain-for-your-github-pages-site#configuring-a-subdomain) for completeness.
+
+---
+
+## 4. Usage
+
+The site is now ready for use as a blog. 
+ * The blog feed can be found at [/rss.xml](https://prompt-me.dev/rss.xml) by default.
+ * Configure [Table Of Contents]() if you want TOC at top-right of page.
