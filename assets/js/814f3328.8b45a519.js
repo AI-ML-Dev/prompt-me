@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunkwebsite=self.webpackChunkwebsite||[]).push([[535],{5641:e=>{e.exports=JSON.parse('{"title":"#100Days Journey","items":[{"title":"000 | Kickoff Learning","permalink":"/day00-kickoff"}]}')}}]);
