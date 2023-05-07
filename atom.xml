@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+    <id>https://prompt-me.dev/</id>
+    <title>Misadventures in Generative AI Blog</title>
+    <updated>2023-05-06T00:00:00.000Z</updated>
+    <generator>https://github.com/jpmonette/feed</generator>
+    <link rel="alternate" href="https://prompt-me.dev/"/>
+    <subtitle>Misadventures in Generative AI Blog</subtitle>
+    <icon>https://prompt-me.dev/img/favicon.ico</icon>
+    <entry>
+        <title type="html"><![CDATA[Learning Objectives]]></title>
+        <id>https://prompt-me.dev/day00-kickoff</id>
+        <link href="https://prompt-me.dev/day00-kickoff"/>
+        <updated>2023-05-06T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[My 100Days Journey]]></summary>
+        <content type="html"><![CDATA[<h2 class="anchor anchorWithStickyNavbar_LWe7" id="my-100days-journey">My #100Days Journey<a href="#my-100days-journey" class="hash-link" aria-label="Direct link to My #100Days Journey" title="Direct link to My #100Days Journey">​</a></h2><p><img loading="lazy" alt="A Bing-DALLE generated image showing a peackock with a crown talking to a robot bird" src="/assets/images/dalle-chat-peacock-c3e25019307327e05f7af5d97aa430aa.jpeg" width="1024" height="1024" class="img_ev3q"></p><h2 class="anchor anchorWithStickyNavbar_LWe7" id="resources">Resources<a href="#resources" class="hash-link" aria-label="Direct link to Resources" title="Direct link to Resources">​</a></h2>]]></content>
+        <author>
+            <name>Nitya Narasimhan, PhD</name>
+            <uri>https://github.com/nitya</uri>
+        </author>
+        <category label="100days" term="100days"/>
+        <category label="general" term="general"/>
+    </entry>
+</feed>
