@@ -45,18 +45,19 @@ Updated the configuration file to:
  - Change footer
  - Use ideal image
  - Add Clarity Analytics
+ - Update (trailingSlash, org, project, deployment) for GitHub pages use
+ - Update link to GitHub logo in navbar, to point to deployment endpoint
 
 ---
 
 ## 3. Deploy
 
-Validate that build is stable first, by running local build and preview:. This should detect any broken links and related issues.
+Validate that build is stable first, by running local build and preview:. 
 
 ```bash
 $ cd website
 $ npx docusaurus build
-
 $ npx docusarus serve
 ```
 
- 
+Then setup the GitHub Actions workflow to have Docusaurus build the static site content in the [gh-pages branch](https://docusaurus.io/docs/deployment#deploying-to-github-pages) of the repo. Commit this step to test the workflow runs (and creates the gh-pages branch)

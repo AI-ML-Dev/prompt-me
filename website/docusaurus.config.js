@@ -41,7 +41,9 @@ const config = {
   tagline: 'From Curious Coder to Prompt Queen 👑',
 
   // Customize presence/absence of trailing slash in URLs
-  trailingSlash: undefined,
+  // Set to false if deployed to GitHub Pages
+  // See: https://docusaurus.io/docs/deployment#deploying-to-github-pages
+  trailingSlash: false,
 
   // For robots.txt (default=false)
   // Set to true to prevent search engines indexing site
@@ -136,7 +138,7 @@ const config = {
           */
           {to: '/landing', label: 'About', position: 'right'},
           { 
-            href: 'https://github.com/nitya/nitya.dev',
+            href: 'https://github.com/AI-ML-Dev/prompt-me',
             position: 'right',
             className: 'header-github-link',
             'aria-label': 'GitHub repository',
